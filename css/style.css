@@ -382,20 +382,20 @@
 	.lj-icon-box h3 {
 		font-family: 'Raleway';
 		font-weight: 700;
-		font-size: 1em;
+		font-size: 1.2em;
 		word-wrap: break-word;
 		color: #262626;
 	}
 
 	.lj-icon-box p {
-		font-size: 0.9em;
+		font-size: 1.05em;
 		color: #262626;
 	}
 
 	.lj-icon-box > a {
 		font-family: 'Raleway';
 		font-weight: 700;
-		font-size: 0.85em;
+		font-size: 1em;
 		color: #262626;
 		display: inline-block;
 	}
@@ -462,6 +462,19 @@
 	}
 
 	.lj-about h2 span {
+		font-weight: 700;
+	}
+
+	.lj-about h3 {
+		font-family: 'Raleway';
+		font-weight: 300;
+		font-size: 2em;
+		color: #262626;
+		margin: 0;
+		text-align: center;
+	}
+
+	.lj-about h3 span {
 		font-weight: 700;
 	}
 
