@@ -382,13 +382,13 @@
 	.lj-icon-box h3 {
 		font-family: 'Raleway';
 		font-weight: 700;
-		font-size: 1.2em;
+		font-size: 1.4em;
 		word-wrap: break-word;
 		color: #262626;
 	}
 
 	.lj-icon-box p {
-		font-size: 1.05em;
+		font-size: 1.3em;
 		color: #262626;
 	}
 
@@ -427,31 +427,6 @@
 		padding-top: 150px;
 		padding-bottom: 150px;
 	}
-
-	.lj-quote {
-		margin-top: 5.75em;
-	}
-
-	.lj-quote span {
-		color: #fc6e51;
-		font-size: 2em;
-	}
-
-	.lj-quote blockquote {
-		width: 80%;
-		margin: 10px 0 0;
-		font-weight: 700;
-		font-style: italic;
-		font-size: 1.25em;
-	}
-
-	.lj-quote blockquote cite {
-		font-size: 0.8em;
-		font-weight: 300;
-		font-style: normal;
-		margin-top: 10px;
-		display: block;
-	}
 	
 	.lj-about h2 {
 		font-family: 'Raleway';
@@ -481,6 +456,9 @@
 	.lj-about p {
 		margin-top: 20px;
 		margin-bottom: 0;
+	}
+	.lj-about p span {
+		font-weight: 700;
 	}
 
 	.lj-about-leading {
