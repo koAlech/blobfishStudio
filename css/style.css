@@ -28,8 +28,10 @@
 /* 1. IMPORT SECTION */
 
 	@import url("bootstrap.css");
-	@import url("http://fonts.googleapis.com/css?family=Lato:300,700,700italic&subset=latin,latin-ext");
+	/*@import url("http://fonts.googleapis.com/css?family=Lato:300,700,700italic&subset=latin,latin-ext");*/
 	@import url("http://fonts.googleapis.com/css?family=Raleway:300,700&subset=latin,latin-ext");
+	@import url("http://fonts.googleapis.com/css?family=Indie+Flower");
+	@import url("http://fonts.googleapis.com/css?family=Roboto:300&subset=latin,latin-ext");
 	@import url("font-awesome.min.css");
 
 
@@ -41,7 +43,8 @@
 	}
 
 	body {
-		font: 16px/1.5 Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
+		/*font: 16px/1.5 Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;*/
+		font-family: 'Roboto', sans-serif;
 		background-color: #fff;
 		color: #262626;
 		font-weight: 300;
@@ -260,8 +263,8 @@
 	
 	.lj-logo a,
 	.lj-logo img {
-		width: 100px;
-		height: 60px;
+		width: 200px;
+		height: 120px;
 	}
 	
 	.lj-logo a {
@@ -282,25 +285,20 @@
 	}
 
 	.lj-title {
-        margin-top: 30px;
+        margin-top: 0px;
     }
     
     .lj-title h1 {
-    	font-family: 'Raleway';
+    	font-family: 'Indie Flower', cursive;
     	font-size: 3.5em;
     	font-weight: 300;
         color: #fff;
         margin: 0;
         word-wrap: break-word;
     }
-    
-    .lj-title span {
-        color: #fff;
-        font-weight: 700;
-    }
 
 	.lj-line {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
     .lj-line > div {
@@ -317,41 +315,11 @@
     .lj-title-paragraph p {
     	color: #fff;
     	margin: 0;
+    	font-size: 1.5em;
     }
-
-    .lj-countdown {
-    	color: #fff;
-    	margin-top: 40px;
-    	text-align: center;
-    }
-
-    .lj-countdown > * {
-    	text-align: center;
-    }
-
-    .lj-countdown div {
-    	display: inline-block;
-    }
-
-    .lj-countdown div span {
-    	width: 150px;
-    	display: block;    	
-    }
-
-    .lj-countdown div span:first-child {
-    	height: 64px;
-    	font-family: Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
-    	font-weight: 300;
-    	font-size: 4em;
-    	line-height: 64px;
-    }
-
-    .lj-countdown div span:last-child {
-    	height: 20px;
-    	font-family: Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
-    	font-weight: 300;
-    	font-size: 1em;
-    	line-height: 20px;
+    .lj-title-paragraph span {
+        color: #fff;
+        font-weight: 700;
     }
 
 	.lj-scroll-down {
@@ -446,124 +414,12 @@
 		font-weight: 700;
 	}
 
-	
-	    
-/* 7. SUBSCRIBE */
-
-	.subscribe {
-		width: 100%;
-		background-color: #eee;
-		background-image: url('../img/bg-4.jpg');
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: 50% 0;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		position: relative;
-		overflow: hidden;
-	}
-
-	.subscribe > .container {
-		padding-top: 150px;
-		padding-bottom: 116px;
-	}
-
-	.lj-subscribe-title h2 {
-		font-family: 'Raleway';
-		font-weight: 300;
-		font-size: 3em;
-		color: #fff;
-		margin: 0;
-	}
-
-	.lj-subscribe-title h2 span {
-		font-weight: 700;
-	}
-
-    .lj-subscribe-form {
-    	margin-top: 6px;
-    }
-
-    .lj-subscribe-form input[type=text] {
-    	width: 65%;
-    	height: 60px;
-    	display: block;
-    	padding: 0 20px;    	
-    	background-color: #fff;
-        border: 1px solid #fff;
-		-webkit-border-top-left-radius: 2px;
-		-webkit-border-bottom-left-radius: 2px;
-		-moz-border-radius-topleft: 2px;
-		-moz-border-radius-bottomleft: 2px;
-		border-top-left-radius: 2px;
-		border-bottom-left-radius: 2px;
-		line-height: 60px;
-		color: #262626;
-		float: left;
-    }
-
-    .lj-subscribe-form input:focus {
-    	outline: 0;
-    }
-    
-    .lj-subscribe-form input[type=submit] {
-    	width: 35%;
-    	height: 60px;
-    	display: block;
-    	padding: 0 10px; 
-    	background-color: #fc6e51;
-        border: 1px solid #fc6e51;
-        color: #fff;
-		-webkit-border-top-right-radius: 2px;
-		-webkit-border-bottom-right-radius: 2px;
-		-moz-border-radius-topright: 2px;
-		-moz-border-radius-bottomright: 2px;
-		border-top-right-radius: 2px;
-		border-bottom-right-radius: 2px;        
-		font-family: 'Raleway';
-		font-weight: 700;	
-		transition: all 0.125s ease-in-out 0s;
-		-moz-transition: all 0.125s ease-in-out 0s;
-		-webkit-transition: all 0.125s ease-in-out 0s;
-		-o-transition: all 0.125s ease-in-out 0s;
-		-ms-transition: all 0.125s ease-in-out 0s;
-		float: right;
-    }
-
-    .lj-subscribe-form input[type=submit]:hover {
-    	background-color: transparent;
-    	border: 1px solid #fff;
-    	color: #fff;
-    }
-
-    .lj-subscribe-message {
-    	height: 2.5em;
-    	padding: 10px 20px;
-    	color: #fff;
-    	font-size: 0.9em;
-    }
-
-    .lj-subscribe-message i {
-    	margin-right: 5px;
-    }
-
-	.lj-subscribe-message .fa-warning {
-    	color: #ff5c5c;
-    }
-
-    .lj-subscribe-message .fa-check {
-    	color: #fc6e51;
-    }    
-
-
 
 /* 8. WHO WE ARE */
 
 	.who-we-are {
 		width: 100%;
-		background-color: #fff;
+		background-color: #ddd;
 		overflow: hidden;
 	}
 
