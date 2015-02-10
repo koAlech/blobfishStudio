@@ -127,9 +127,10 @@
     // backstretch
     $("header").backstretch([
         "img/bg-1.jpg"
+      , "img/bg-5.jpg"
+      , "img/bg-6.jpg"
       , "img/bg-2.jpg"
-      // , "img/bg-3.jpg"
-    ],{duration: 5000, fade: 750});
+    ],{duration: 7500, fade: 750});
 
     // JQUERY.MB.YTPLAYER
     /*
